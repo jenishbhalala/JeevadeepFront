@@ -1,0 +1,33 @@
+// ----Media query mixin-----------//
+@mixin min-mq($min-screen-size) {
+  @media (min-width: #{$min-screen-size +"px"}) {
+    @content;
+  }
+}
+
+@mixin max-mq($max-width) {
+  @media only screen and (max-width: #{ $max-width + 'px'}) {
+   @content;
+  }
+}
+.center-form {
+  min-width: 800px;
+}
+.link {
+  text-decoration: none;
+}
+.container-custom {
+  height: 100vh;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup-svg {
+  overflow: hidden;
+}
+.resp-img{
+  @include max-mq(1199){
+    display: none;
+  }
+}

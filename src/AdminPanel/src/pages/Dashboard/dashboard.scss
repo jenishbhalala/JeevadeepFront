@@ -1,0 +1,36 @@
+.bg-background {
+  background: #f1f1f1;
+  min-height: 100vh;
+}
+
+.dashboard-cards {
+  min-height: 135px;
+}
+.card-count {
+  display: flex;
+  justify-content: center;
+  //   align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.txt-white {
+  color: white !important;
+}
+.header-view {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  .logo {
+    svg {
+      height: 30px !important;
+      width: 30px !important;
+    }
+  }
+  .header-title {
+    font-weight: 600;
+  }
+  .header-sub-title {
+    font-weight: 400;
+  }
+}

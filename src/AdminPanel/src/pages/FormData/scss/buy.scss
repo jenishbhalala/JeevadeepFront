@@ -1,0 +1,121 @@
+.export-date {
+  display: flex;
+
+  .date-btn {
+    width: 11%;
+    font-size: smaller;
+  }
+
+  .search-btn {
+    width: 11%;
+  }
+  .reload-btn {
+    width: 4%;
+    margin-left: 11px;
+  }
+}
+
+.export {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.search-field {
+  width: auto;
+  margin-right: 20px;
+}
+.fromdate {
+  width: auto;
+  margin-right: 20px;
+}
+.todate {
+  width: auto;
+  margin-right: 20px;
+}
+.search-start {
+  width: auto;
+  margin-right: 20px;
+}
+.search-end {
+  width: auto;
+  margin-right: 20px;
+}
+.btn-search {
+  width: 100px;
+}
+
+.mw-date {
+  min-width: 100px;
+}
+.mw-rm_date {
+  min-width: 140px;
+}
+.mw-last_modified {
+  min-width: 165px;
+}
+.mw-name {
+  min-width: 200px;
+}
+.mw-number {
+  min-width: 150px;
+}
+.mw-assigned_to {
+  min-width: 120px;
+}
+
+.mw-company-id {
+  min-width: 165px;
+}
+.mw-buy-quantity {
+  min-width: 165px;
+}
+.mw-total-amount {
+  min-width: 165px;
+}
+.mw-created {
+  min-width: 200px;
+}
+.mw-updated {
+  min-width: 200px;
+}
+.mw-isin {
+  min-width: 100px;
+}
+.mw-dot {
+  min-width: 250px;
+}
+
+.buy-sr {
+  min-width: 80px;
+}
+
+[type="date"] {
+  background: #fff
+    url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)
+    97% 50% no-repeat;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.typeDate {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 5px;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
+  width: 150px;
+}
+
+.reload-btn {
+  width: 40px;
+  height: 30px;
+}
+// CRow {
+//   CTableHeaderCell {
+//     text-align: center;
+//   }
+// }

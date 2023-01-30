@@ -1,0 +1,101 @@
+/*=============================
+   contact-form-area
+ =============================*/
+.contact-form-area {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    .form-shared-wrap {
+        margin-top: 51px;
+        .form-shared-content {
+            .form-img {
+                margin-bottom: 23px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .form-content {
+                .form__title {
+                    font-size: 30px;
+                    font-weight: 600;
+                    margin-bottom: 25px;
+                }
+
+                .form__desc {
+                    line-height: 30px;
+                }
+
+                .form__list {
+                    margin-top: 30px;
+
+                    li {
+                        margin-bottom: 17px;
+
+                        i {
+                            color: #e36955;
+                            font-size: 14px;
+                            margin-right: 4px;
+                        }
+                    }
+
+                    li:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+
+                .contact-us-box {
+                    display: -webkit-flex;
+                    display: -ms-flex;
+                    display: flex;
+                    border-top: 2px solid #f2f0ec;
+                    border-bottom: 2px solid #f2f0ec;
+                    margin-top: 52px;
+                    padding-top: 40px;
+                    padding-bottom: 38px;
+                    justify-content: space-between;
+
+                    .contact__item {
+                        h4 {
+                            font-weight: 600;
+                            font-size: 16px;
+                            margin-bottom: 8px;
+                            font-family: Playfair Display, serif;
+                        }
+                        a {
+                            color: #e36955;
+                            font-size: 18px;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+        .form-shared form .textarea {
+            height: 240px;
+        }
+        .form-shared form p {
+            color: #e30d0d;
+            font-size: 14px;
+            margin-bottom: 4px;
+            margin-top: -15px;
+        }
+    }
+    .section-heading {
+        .section__title {
+            font-size: 50px;
+            line-height: 60px;
+            font-weight: 700;
+            font-family: Playfair Display, serif;
+        }
+        .section__meta {
+            color: #863bae;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 500;
+            margin-top: 8px;
+            display: block;
+        }
+    }
+}

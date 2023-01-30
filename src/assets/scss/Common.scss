@@ -1,0 +1,254 @@
+/*===================================
+    BREADCRUMB AREA
+=====================================*/
+.breadcrumb-area {
+    background-color: #f2f0ec;
+    position: relative;
+    z-index: 1;
+    color: #424242;
+
+    .breadcrumb-content {
+        text-align: center;
+        position: relative;
+        padding-top: 110px;
+        padding-bottom: 115px;
+
+        .breadcrumb__title {
+            font-size: 60px;
+            line-height: 60px;
+            letter-spacing: 0;
+            color: #424242;
+            font-weight: 800;
+            text-transform: capitalize;
+        }
+
+        .breadcrumb__list {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: #e36955;
+            padding: 0 30px 0 35px;
+            line-height: 49px;
+
+            li {
+                font-size: 12px;
+                letter-spacing: 1px;
+                color: #fff;
+                font-weight: 600;
+                position: relative;
+                padding-right: 22px;
+                text-transform: uppercase;
+                display: inline-block;
+
+                a {
+                    color: #fff;
+                    -webkit-transition: 0.3s ease;
+                    -moz-transition: 0.3s ease;
+                    -ms-transition: 0.3s ease;
+                    -o-transition: 0.3s ease;
+                    transition: 0.3s ease;
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    color: #f1ae44;
+                }
+            }
+
+            li:last-child {
+                padding-right: 0;
+            }
+
+            li.active__list-item:after {
+                position: absolute;
+                content: ".";
+                top: 0;
+                right: 0;
+                padding: 0 6px;
+                font-size: 15px;
+            }
+        }
+
+        .breadcrumb__list:after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 1px;
+            z-index: -1;
+            background: #e36955;
+            -webkit-transform-origin: bottom left;
+            transform-origin: bottom left;
+            -webkit-transform: skew(-12deg, 0deg);
+            -moz-transform: skew(-12deg, 0deg);
+            -ms-transform: skew(-12deg, 0deg);
+            -o-transform: skew(-12deg, 0deg);
+            transform: skew(-12deg, 0deg);
+            -webkit-transition: 0.3s ease-in;
+            -moz-transition: 0.3s ease-in;
+            -ms-transition: 0.3s ease-in;
+            -o-transition: 0.3s ease-in;
+            transition: 0.3s ease-in;
+        }
+    }
+}
+/*=============================
+   FORM-SHARED
+ =============================*/
+.form-shared {
+    margin-top: 51px;
+
+    form {
+        .form-control,
+        .textarea,
+        .select-option {
+            width: 100%;
+            height: auto;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            border-radius: 0;
+            border: none;
+            background-color: #f2f0ec;
+            color: #818181;
+            padding: 19px 30px;
+            -webkit-box-shadow: 0 0 0 0;
+            -moz-box-shadow: 0 0 0 0;
+            box-shadow: 0 0 0 0;
+            font-weight: 500;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .select-group {
+            position: relative;
+        }
+
+        .select-group:after {
+            position: absolute;
+            content: "\f0d7";
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+            right: 30px;
+            font-family: "fontAwesome";
+            font-size: 14px;
+            color: #818181;
+            pointer-events: none;
+            display: inline-block;
+        }
+
+        .select-option {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            -ms-appearance: none;
+            -o-appearance: none;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            cursor: pointer;
+        }
+
+        .textarea {
+            height: 138px;
+        }
+
+        .search-submit {
+            border: none;
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+            right: 30px;
+            background-color: transparent;
+            color: #232323;
+            -webkit-transition: 0.3s ease;
+            -moz-transition: 0.3s ease;
+            -ms-transition: 0.3s ease;
+            -o-transition: 0.3s ease;
+            transition: 0.3s ease;
+        }
+
+        .search-submit:hover {
+            color: #1762f0;
+        }
+
+        .submit__btn {
+            margin-top: -8px;
+            line-height: 60px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            p {
+                color: #e36955;
+            }
+        }
+    }
+}
+
+.theme-btn {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0 30px 0 35px;
+    line-height: 49px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+}
+
+.theme-btn,
+.theme-btn:after {
+    background: #e36955;
+    transition: 0.3s ease-in;
+}
+
+.theme-btn:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 1px;
+    z-index: -1;
+    transform-origin: bottom left;
+    transform: skew(-12deg, 0deg);
+}
+
+.theme-btn:hover,
+.theme-btn:hover:after {
+    background-color: #f1ae44;
+    color: #fff;
+}
+
+@media (max-width: 375px) {
+    .breadcrumb-area {
+        .breadcrumb-content {
+            .breadcrumb__title {
+                font-size: 46px;
+            }
+        }
+    }
+}
+
+@media (max-width: 296px) {
+    .breadcrumb-area {
+        .breadcrumb-content {
+            .breadcrumb__list {
+                padding: 0 0px 0 15px;
+            }
+        }
+    }
+}

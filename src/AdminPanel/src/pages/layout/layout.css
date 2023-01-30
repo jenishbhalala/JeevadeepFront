@@ -1,0 +1,5 @@
+.wrapper {
+  padding-left: var(--cui-sidebar-occupy-start, 0);
+  width: 100%;
+}
+/*# sourceMappingURL=layout.css.map */

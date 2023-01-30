@@ -1,0 +1,30 @@
+.export {
+  display: -ms-grid;
+  display: grid;
+}
+
+.export .date-btn {
+  width: 11%;
+  font-size: smaller;
+}
+
+.export .search-btn {
+  width: 11%;
+}
+
+.fromdate {
+  width: 20%;
+}
+
+.todate {
+  width: 20%;
+}
+
+.search-start {
+  width: 20%;
+}
+
+.search-end {
+  width: 20%;
+}
+/*# sourceMappingURL=buy.css.map */

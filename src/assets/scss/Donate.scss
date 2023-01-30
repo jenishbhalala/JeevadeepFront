@@ -1,0 +1,183 @@
+/*===================================
+     DONATE AREA 2
+ =====================================*/
+.donate-area2 {
+    padding-top: 110px;
+    padding-bottom: 66px;
+    .donate-content-wrap {
+        .donate-item {
+            margin-bottom: 53px;
+            .donate__title {
+                font-size: 30px;
+                font-weight: 800;
+                margin-bottom: 35px;
+                font-family: Playfair Display, serif;
+                color: #424242;
+            }
+            .form-shared {
+                margin-top: 0px;
+                form {
+                    .yellow-form {
+                        position: relative;
+                        .form-control {
+                            background-color: #f1ae44;
+                            padding-top: 30px;
+                            padding-bottom: 30px;
+                            padding-left: 80px;
+                            color: #fff;
+                            font-size: 50px;
+                            font-family: "Playfair Display", sans-serif;
+                            font-weight: 800;
+                        }
+                        span {
+                            position: absolute;
+                            top: 50%;
+                            left: 30px;
+                            color: #fff;
+                            font-size: 70px;
+                            font-family: "Playfair Display", sans-serif;
+                            -webkit-transform: translateY(-50%);
+                            -moz-transform: translateY(-50%);
+                            -ms-transform: translateY(-50%);
+                            -o-transform: translateY(-50%);
+                            transform: translateY(-50%);
+                            line-height: 70px;
+                        }
+                        span.number-symble {
+                            left: auto;
+                            right: 30px;
+                            top: 42%;
+                        }
+                    }
+                    .form-control {
+                        font-weight: 400;
+                    }
+                    .textarea {
+                        height: 230px;
+                    }
+                    .submit__btn {
+                        margin-top: 0;
+                        line-height: 50px;
+                    }
+                }
+            }
+        }
+        .sidebar-shared {
+            .side-widget {
+                background-color: #f2f0ec;
+                padding: 40px;
+                margin-bottom: 30px;
+                .author-box {
+                    // display: -ms-flex;
+                    display: flex;
+                    .author__avatar {
+                        margin-right: 20px;
+                        width: 59px;
+                        height: 59px;
+                        background-color: #424242;
+                    }
+                    .author__detail {
+                        margin-top: -10px;
+                        .author__meta {
+                            font-size: 12px;
+                            text-transform: uppercase;
+                            font-weight: 500;
+                            letter-spacing: 0.1px;
+                            font-family: Poppins, sans-serif;
+                            line-height: 26px;
+                            color: #818181;
+                        }
+                        .author__title {
+                            font-size: 18px;
+                            font-weight: 600;
+                            margin-bottom: 14px;
+                            color: #424242;
+                            font-family: Playfair Display, serif;
+                        }
+                        .author__list {
+                            padding: 0;
+                            list-style: none;
+                            li {
+                                margin-bottom: 4px;
+                                font-family: Poppins, sans-serif;
+                                font-size: 16px;
+                                line-height: 26px;
+                                color: #818181;
+                                font-weight: 400;
+                                i {
+                                    color: #f1ae44;
+                                    font-size: 15px;
+                                    margin-right: 7px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .side-widget.blog-content {
+                padding: 0;
+                .blog-item {
+                    .blog-img img {
+                        width: 100%;
+                    }
+                    .barfiller {
+                        .tip,
+                        .tip:before,
+                        .fill:after {
+                            background: #e36955;
+                        }
+                        .tip:after {
+                            border-top-color: #e36955;
+                        }
+                    }
+                    .blog-inner-content {
+                        padding: 44px 60px 54px 60px;
+                        .blog__title {
+                            font-size: 26px;
+                            font-weight: 800;
+                            margin-bottom: 15px;
+                            a {
+                                color: #424242;
+                                font-family: Playfair Display, serif;
+                                text-decoration: none;
+                            }
+                        }
+                        .blog__list {
+                            list-style: none;
+                            padding: 0px;
+                            li {
+                                color: #424242;
+                                font-weight: 600;
+                                font-size: 14px;
+                                margin-bottom: 13px;
+                                position: relative;
+                                padding-left: 30px;
+                                font-family: Poppins, sans-serif;
+                                i {
+                                    font-size: 22px;
+                                    position: absolute;
+                                    top: 2px;
+                                    left: 0;
+                                }
+                                i.fa-line-chart {
+                                    font-size: 18px;
+                                }
+                                span {
+                                    color: #e36955;
+                                }
+                            }
+                        }
+                        .blog__desc {
+                            margin-top: 27px;
+                            font-family: Poppins, sans-serif;
+                            font-size: 16px;
+                            line-height: 26px;
+                            color: #818181;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+/*===================================
+    ABOUT AREA
+=====================================*/
+.about-area {
+    padding-top: 120px;
+    // padding-bottom: 120px;
+
+    .about-large-img {
+        margin-bottom: 60px;
+    }
+
+    .about-large-img img,
+    .about-semi-img img {
+        width: 100%;
+    }
+
+    .about-heading {
+        padding-left: 30px;
+
+        .section-heading .section__desc {
+            line-height: 30px;
+            margin-top: 45px;
+        }
+    }
+}
+
+/*===================================
+    FAQ AREA
+=====================================*/
+.faq-area {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #f2f0ec;
+
+    .faq-img-box {
+        margin-right: 30px;
+        margin-top: 50px;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.ac>.ac-q{
+    font-family: 'Playfair Display', serif;
+	color: #232323;
+	width: 100%;
+	margin: 0;
+	cursor: pointer;
+	padding: 25px 35px;
+	display: block;
+	background-color: #fff;
+	font-weight: 600;
+	font-size: 20px;
+	position: relative;
+	-webkit-transition: 0.3s ease;
+	-moz-transition: 0.3s ease;
+	-ms-transition: 0.3s ease;
+	-o-transition: 0.3s ease;
+	transition: 0.3s ease;
+}
+
+.ac > .ac-a p {
+    padding: 30px 20px 25px 35px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.accordion-container .is-active > h2 {
+	background: #e36955 !important;
+    color: #ffffff;
+}

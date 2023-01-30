@@ -1,0 +1,94 @@
+.gallery-area2 {
+    padding-top: 120px;
+    padding-bottom: 90px;
+
+    .gallery-item {
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+
+        a {
+            display: inline-block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            line-height: 40px;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            opacity: 0;
+            visibility: hidden;
+            -webkit-transition: 0.3s ease-in;
+            -moz-transition: 0.3s ease-in;
+            -ms-transition: 0.3s ease-in;
+            -o-transition: 0.3s ease-in;
+            transition: 0.3s ease-in;
+        }
+
+        .gallery-icon {
+            position: relative;
+            width: 30px;
+            height: 2px;
+            display: inline-block;
+        }
+
+        .gallery-icon:before,
+        .gallery-icon:after {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            top: 0;
+            left: 0;
+        }
+
+        .gallery-icon:after {
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            -o-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+        }
+    }
+
+    // .gallery-item:after {
+    //     position: absolute;
+    //     content: '';
+    //     width: 0;
+    //     height: 100%;
+    //     top: 0;
+    //     left: -87px;
+    //     background-color: rgba(134, 59, 174, 0.90);
+    //     -webkit-transform-origin: bottom left;
+    //     transform-origin: bottom left;
+    //     -webkit-transform: skew(-11deg, 0deg);
+    //     -moz-transform: skew(-11deg, 0deg);
+    //     -ms-transform: skew(-11deg, 0deg);
+    //     -o-transform: skew(-11deg, 0deg);
+    //     transform: skew(-11deg, 0deg);
+    //     -webkit-transition: 0.3s ease-in;
+    //     -moz-transition: 0.3s ease-in;
+    //     -ms-transition: 0.3s ease-in;
+    //     -o-transition: 0.3s ease-in;
+    //     transition: 0.3s ease-in;
+    //     opacity: 0;
+    //     visibility: hidden;
+    // }
+
+    .gallery-item:hover:after {
+        width: 100%;
+    }
+
+    .gallery-item:hover:after,
+    .gallery-item:hover a {
+        opacity: 1;
+        visibility: visible;
+    }
+}

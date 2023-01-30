@@ -1,0 +1,42 @@
+// .modal_cookie {
+// }
+
+.cookie_modal_box {
+  .modal-content {
+    border-radius: 7px;
+  }
+  .btn-close {
+    display: none;
+  }
+  .modal-footer {
+    justify-content: space-around;
+  }
+  .btn_cookie {
+    // background: #002733;
+    background: #e67e22;
+    border-radius: 100px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    min-width: 135px;
+  }
+  .btn_cookie_2 {
+    /* box-shadow: none; */
+    background: #3498db;
+    border-radius: 100px;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none;
+    min-width: 135px;
+    border: none !important;
+  }
+}
+.cookie_header {
+  //   background: #002733;
+  .cookie_title {
+    font-size: 22px;
+    font-weight: 700;
+    // color: #fff;
+    color: #002733;
+  }
+}
